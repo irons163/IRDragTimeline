@@ -14,8 +14,8 @@
             filePath = "IRDragTimeline/Classes/IRDragTableViewController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "-dataSource"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "IRDragTimeline/Classes/Timeline/Components/Branch/MessageBranch/MessageBranch.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
             landmarkName = "-tableView:viewForFooterInSection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,24 +110,8 @@
             filePath = "IRDragTimeline/Classes/Timeline/Components/Branch/MessageBranch/MessageBranch.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "244"
-            endingLineNumber = "244"
-            landmarkName = "-tableView:performDropWithCoordinator:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D3AB1954-1012-474B-A65F-EB39EBC26AF6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IRDragTimeline/Classes/Timeline/Components/Branch/MessageBranch/MessageBranch.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "217"
-            endingLineNumber = "217"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
             landmarkName = "-tableView:performDropWithCoordinator:"
             landmarkType = "7">
          </BreakpointContent>
@@ -142,8 +126,8 @@
             filePath = "IRDragTimeline/Classes/Timeline/Components/Branch/MessageBranch/MessageBranch.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "-tableView:itemsForAddingToDragSession:atIndexPath:point:"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,25 +142,9 @@
             filePath = "IRDragTimeline/Classes/Timeline/Components/Branch/MessageBranch/MessageBranch.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "-tableView:itemsForBeginningDragSession:atIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E2C37450-1139-43E9-AE71-AA2E5E5700BD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IRDragTimeline/Classes/Timeline/Components/Branch/MessageBranch/MessageBranch.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "294"
-            endingLineNumber = "294"
-            landmarkName = "-tableView:dropSessionDidUpdate:withDestinationIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -13,7 +13,7 @@ typedef NS_ENUM(NSInteger, FunctionType){
     LEAF
 };
 
-@protocol FunctionModelItem <NSObject, NSItemProviderWriting>
+@protocol FunctionModelItem <NSObject>
 @property (nonatomic) BOOL hideCells;
 - (FunctionType)type;
 - (NSInteger)rowCount;

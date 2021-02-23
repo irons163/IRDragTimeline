@@ -30,18 +30,11 @@
 
 #pragma mark - Private
 - (void)setupView {
-//    _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
-//    [_tableView registerClass:[IRDragTableViewCell class] forCellReuseIdentifier:IRDragTableViewCell.identifier];
     [_tableView registerNib:[UINib nibWithNibName:IRDragTableViewCell.identifier bundle:nil] forCellReuseIdentifier:IRDragTableViewCell.identifier];
-//    [_tableView registerClass:[IRDragTableViewCell class] forCellReuseIdentifier:IRDragTableViewCell.identifier];
     _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     _tableView.delegate = self;
     _tableView.dataSource = self;
-//    _tableView.dragDelegate = self;
-//    _tableView.dropDelegate = self;
-//    _tableView.dragInteractionEnabled = YES;
     _tableView.separatorInset = UIEdgeInsetsZero;
-//    _tableView.rowHeight = 250;
     [self.view addSubview:_tableView];
 }
 
@@ -71,31 +64,12 @@
 
 - (NSMutableArray *)dataSource {
     if (!_dataSource) {
-//        NSMutableArray *tempArray = [@[] mutableCopy];
-//        for (NSInteger i = 0; i <= 5; i++) {
-//            UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"image%ld", i]];
-//            [tempArray addObject:image];
-//
-//        }
-//        _dataSource = tempArray;
         _dataSource = _clientJourneyData.allValues;
     }
     return _dataSource;
 }
 
 #pragma mark - UITableViewDataSource
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//    return self.dataSource.count;
-//}
-//
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    IRDragTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:IRDragTableViewCell.identifier];
-//    cell.textLabel.numberOfLines = 0;
-//    cell.targetImageView.image = self.dataSource[indexPath.row];
-//
-//    return cell;
-//}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 1;
 }
@@ -110,9 +84,6 @@
     return cell;
 }
 
-
-
-
 - (void)willUpdate:(NSNumber *)pos {
     [self showLoading:YES];
 }
@@ -126,6 +97,5 @@
         }];
     });
 }
-
 
 @end
